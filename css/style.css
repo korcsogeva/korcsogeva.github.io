@@ -8,6 +8,21 @@
     color: black;
     font-weight: bold;
 }
-    
 
+#burgerek {
+    position: block;
+}
+
+.col-3 {
+    background-color: rgb(248, 247, 227);
+}
+
+.col-3 img {
+    position: relative; right:5px; top: 5px;
+}
+    
+    
+#nyitvatartas {
+    position: relative; left:150px; top: 50px;
+}
 
