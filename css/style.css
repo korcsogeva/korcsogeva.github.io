@@ -1,0 +1,13 @@
+#navbar {
+    background-color: rgb(177, 243, 229);
+    line-height: 70px;
+    font-size: 20px;
+}
+
+#navbar a {
+    color: black;
+    font-weight: bold;
+}
+    
+
+
