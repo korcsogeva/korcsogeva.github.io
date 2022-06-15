@@ -18,12 +18,12 @@
 }
 
 .col-3 img {
-    position: relative; right:5px; top: 5px;
+    max-width: 90%;
 }
     
     
 #nyitvatartas {
-    position: relative; left:150px; top: 50px;
+    display: block;
 }
 
 .col-6 {

@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/style.css">
-  <link rel="stylesheet" href="lib/bootstrap-5.2.0-beta1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="lib/bootstrap-5.2.0-beta1-dist/css/bootstrap.min.css">
     <title>Document</title>
 </head>
+
 <body>
     <div id="navbar" class="mobile-first">
         <button id="fooldal" class="btn btn-group btn-info">
@@ -22,8 +24,8 @@
         <button id="rolunk" class="btn btn-group btn-info">
             <a href="/about.html">Rólunk</a>
         </button>
-      </div>
-      <div class="mobile-first">
+    </div>
+    <div class="mobile-first">
         <div class="row">
             <div class="col">
                 <img src="/img/buri1.jpg" alt="Burrrri">
@@ -31,18 +33,51 @@
             <div class="col-6">
                 <h2>
                     Rendelés:
-                </h2> 
-                    
-                    
-                <p></p>
-                <p></p>
-                <p></p>
-                <p></p>
+                </h2>
+                <table id="rendeles" class="table-bordered">
+
+
+                    <thead>
+                        <tr>
+                            <th>Nap</th>
+                            <th colspan="2">Nyitvatartás</th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                        <tr>
+                            <td>Hétfő - Péntek</td>
+                            <td>09:00</td>
+                            <td rowspan="2">21:00</td>
+                        </tr>
+                        <tr>
+                            <td>Szombat</td>
+                            <td>10:00</td>
+
+                        </tr>
+                        <tr>
+                            <td>Vasárnap</td>
+                            <td colspan="2">Zárva</td>
+
+                        </tr>
+
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="3">&copy; 2022</td>
+                        </tr>
+                    </tfoot>
+                </table>
+
+
+
             </div>
             <div class="col">
                 <img src="/img/buri1.jpg" alt="Burrrri">
             </div>
         </div>
-    
+
 </body>
+
 </html>
